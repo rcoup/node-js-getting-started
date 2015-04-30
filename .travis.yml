@@ -2,3 +2,10 @@ language: node_js
 node_js:
 - '0.11'
 - '0.10'
+deploy:
+  provider: heroku
+  api_key:
+    secure: ViBUvUP1SyNpETWE5rPuhICiRkSiSpCO4WMgPs/+AMA1veLTum1IpCb+GKwwZ+Lxy0KecvisIRyOr+ePfKcMNvpgJxN+mCcxehmkyBKGHgTjLWyg45swjgExgzq5mY9vVXd64uvhFBioQe+wL1ioeN2U0CXReYbTICuTRGJw5WI=
+  app: salty-dusk-5534
+  on:
+    repo: rcoup/node-js-getting-started
